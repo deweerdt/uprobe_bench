@@ -1,0 +1,4 @@
+#!/usr/bin/env Rscript
+d <- scan(file="stdin", quiet=TRUE)
+s <- unname(summary(d))
+s[5] / s[2]
